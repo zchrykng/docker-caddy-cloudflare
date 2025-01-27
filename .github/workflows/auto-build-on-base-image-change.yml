@@ -2,7 +2,6 @@ name: Regular base image update check
 on:
   schedule:
     - cron: "23 13 3 * *"
-  workflow_dispatch:
   
 env:
   # Use docker.io for Docker Hub if empty
